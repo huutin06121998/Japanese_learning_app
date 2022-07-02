@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const PORT = 8000;
 const data = {
   listHiragana: [
     {
@@ -2613,6 +2612,4 @@ app.get("/review-travel", function (req, res) {
   res.send(data);
 });
 
-app.listen(PORT, function () {
-  console.log("Server running at port " + PORT);
-});
+app.listen(8000);
