@@ -2613,6 +2613,6 @@ app.get("/review-travel", function (req, res) {
   res.send(data);
 });
 
-app.listen(PORT || 8000, () => {
+app.listen(PORT, function () {
   console.log("Server running at port " + PORT);
 });
