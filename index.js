@@ -1,5 +1,7 @@
 const express = require("express");
 const app = express();
+require("dotenv").config();
+const PORT = process.env.PORT || 8000;
 const data = {
   listHiragana: [
     {
@@ -2612,4 +2614,4 @@ app.get("/review-travel", function (req, res) {
   res.send(data);
 });
 
-app.listen(8000);
+app.listen(PORT);
