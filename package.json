@@ -1,0 +1,25 @@
+{
+  "name": "japanese_learning_app",
+  "version": "1.0.0",
+  "description": "create_app_japanese",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huutin06121998/Japanese_learning_app.git"
+  },
+  "keywords": [
+    "japan_study_app"
+  ],
+  "author": "Nguyen_Huu_Tin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huutin06121998/Japanese_learning_app/issues"
+  },
+  "homepage": "https://github.com/huutin06121998/Japanese_learning_app#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
