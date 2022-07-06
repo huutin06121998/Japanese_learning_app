@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 require("dotenv").config();
 const PORT = process.env.PORT || 8000;
-const data = [
+const dataHiragana = [
   {
     id: 1,
     name: "あ",
@@ -538,6 +538,8 @@ const data = [
     name: "ぴょ",
     pronounce: "pyo",
   },
+];
+const dataKatakana = [
   {
     id: 1,
     name: "ア",
@@ -1075,8 +1077,12 @@ const data = [
   },
 ];
 
-app.get("/review-travel", function (req, res) {
-  res.send(data);
+app.get("/hiragana", function (req, res) {
+  res.send(dataHiragana);
+});
+
+app.get("/katakana", function (req, res) {
+  res.send(dataKatakana);
 });
 
 app.listen(PORT);
