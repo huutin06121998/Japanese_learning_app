@@ -1415,7 +1415,7 @@ app.get("/katakana", function (req, res) {
   res.send(dataKatakana);
 });
 
-app.get("vocabulary-lesson", function (req, res) {
+app.get("/vocabulary-lesson", function (req, res) {
   res.send(dataVocabularyLesson);
 });
 
